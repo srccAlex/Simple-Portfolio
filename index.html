@@ -51,11 +51,33 @@
     </div>
  </section>
 
+ 
  <!-- Contact Section -->
  <section id="contact">
     <h2>Contact Me</h2>
-    <p>If you'd like to work together or just say hello, feel free to reach out!</p>
-    <a href="alexismichailidis66@gmail.com" class="contact-button">My email</a>
+    <form
+    action="https://formspree.io/f/xqakbnkg"
+    method="post"
+    >
+
+    <label>
+        Your Email:
+        <input type="email" name="email"><br>
+    </label>
+
+    <label>
+        Your name:
+        <input type="name" name="name"><br>
+    </label>
+
+    <label>
+        Your message:
+        <textarea name="message"></textarea><br>
+    </label>
+
+    <button type="submit">Send</button>
+
+    </form>
     
     </body>
 </html>
